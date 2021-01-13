@@ -5,7 +5,7 @@ let ray2;
 
 let x1;
 let y1;
-let playerStep = 4;
+let playerStep = 2;
 
 let rayLength = 600;
 let factor = 20;
@@ -37,25 +37,11 @@ function setup() {
   // obstacles.push(new Obstacle(45, -300, width-30, height-height/2));
   let cubeSize = 100;
 
-  obstacles.push(new Obstacle(90, cubeSize, width/3+cubeSize, height/3+cubeSize));
-  obstacles.push(new Obstacle(180, cubeSize, width/3+cubeSize, height/3));
-  obstacles.push(new Obstacle(-90, cubeSize, width/3, height/3));
-  obstacles.push(new Obstacle(0, cubeSize, width/3, height/3+cubeSize));
-
-  obstacles.push(new Obstacle(90, cubeSize, width/2+cubeSize, height/3+cubeSize));
-  obstacles.push(new Obstacle(180, cubeSize, width/2+cubeSize, height/3));
-  obstacles.push(new Obstacle(-90, cubeSize, width/2, height/3));
-  obstacles.push(new Obstacle(0, cubeSize, width/2, height/3+cubeSize));
-
-  obstacles.push(new Obstacle(90, cubeSize, width-cubeSize, height/3+cubeSize));
-  obstacles.push(new Obstacle(180, cubeSize, width-cubeSize, height/3));
-  obstacles.push(new Obstacle(-90, cubeSize, width, height/3));
-  obstacles.push(new Obstacle(0, cubeSize, width, height/3+cubeSize));
-
-  obstacles.push(new Obstacle(90, cubeSize, width/2-cubeSize, height/3+cubeSize));
-  obstacles.push(new Obstacle(180, cubeSize, width/2-cubeSize, height/3));
-  obstacles.push(new Obstacle(-90, cubeSize, cubeSize, height/3));
-  obstacles.push(new Obstacle(0, cubeSize, cubeSize, height/3+cubeSize));
+  obstacles.push(new Obstacle(-90, 200, 90, 100));
+  obstacles.push(new Obstacle(378, 59, 342, 271));
+  obstacles.push(new Obstacle(-20, 90, 294, 54));
+  obstacles.push(new Obstacle(0, 100, 90, 300));
+  obstacles.push(new Obstacle(40, 150, 200, 250));
 
 
 
